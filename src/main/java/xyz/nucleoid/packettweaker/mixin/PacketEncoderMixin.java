@@ -3,7 +3,7 @@ package xyz.nucleoid.packettweaker.mixin;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import net.minecraft.network.ClientConnection;
-import net.minecraft.network.PacketEncoder;
+import net.minecraft.network.handler.PacketEncoder;
 import net.minecraft.network.packet.Packet;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
